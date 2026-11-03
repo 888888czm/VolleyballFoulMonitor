@@ -20,7 +20,7 @@
 *   **数据报告**：Pandas (CSV 导出)、ReportLab (PDF 排版)
 
 ## 🚀 快速开始
-
+##  方案一
 ### 1. 环境准备
 请确保你的电脑已安装 Python 3.8+，然后在命令行执行以下命令安装依赖：
 ```bash
@@ -40,6 +40,8 @@ pyinstaller -y --onedir --console --clean --collect-all pandas --collect-all num
 ```
 *   `--onedir`：生成文件夹模式，启动速度比单文件快，且不易报错。
 *   `--collect-all`：强制将底层库和 DLL 完整打包，避免 `ModuleNotFoundError`。
+## 方案二
+直接运行“排球犯规监测系统.exe”文件即可
 
 ## 📂 目录结构说明
 
